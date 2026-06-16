@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "corrupted_plant_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "corrupted_plant",
+                    "frame": "v_plant1"
+                },
+                {
+                    "key": "corrupted_plant",
+                    "frame": "v_plant2"
+                },
+                {
+                    "key": "corrupted_plant",
+                    "frame": "v_plant3"
+                },
+                {
+                    "key": "corrupted_plant",
+                    "frame": "v_plant4"
+                }
+            ]
+        }
+    ]
+}

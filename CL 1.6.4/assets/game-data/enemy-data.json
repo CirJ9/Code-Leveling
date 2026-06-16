@@ -1,0 +1,80 @@
+{
+  "enemies": [
+    {
+      "id": "v_dog",
+      "name": "V-Dog",
+      "levelRange": [1, 2],
+      "hp": 45,
+      "maxHp": 45,
+      "maxRam": 20,
+      "ramRegen": 4,
+      "expDropped": 30,
+      "weakness": "System.out.println",
+      "baseAttack": 5,
+      "attacks": [{ "type": "code", "name": "Rough Patch", "code": "lag();", "dmg": 10, "cost": 8 }],
+      "anims": "v_dog_idle",
+      "rarity": "common"
+    },
+
+    {
+      "id": "corrupted_sister",
+      "name": "Corrupted Sister",
+      "levelRange": [2, 5],
+      "hp": 95,
+      "maxHp": 95,
+      "maxRam": 50,
+      "ramRegen": 8,
+      "expDropped": 90,
+      "weakness": "int",
+      "baseAttack": 10,
+      "attacks": [{ "type": "physical", "name": "Slash", "dmg": 12, "cost": 0 }],
+      "anims": "corrupted_sister_idle",
+      "rarity": "boss"
+    },
+
+    {
+      "id": "corrupted_human",
+      "name": "Corrupted Human",
+      "levelRange": [3, 6],
+      "hp": 120,
+      "maxHp": 120,
+      "maxRam": 60,
+      "ramRegen": 9,
+      "expDropped": 110,
+      "spawnLocation": "Corrupted Ward",
+      "weakness": "Math.random()",
+      "baseAttack": 13,
+      "attacks": [
+        { "type": "physical", "name": "Punch", "dmg": 14, "cost": 0 },
+        { "type": "code", "name": "Malfunction", "code": "corruptMemory();", "dmg": 22, "cost": 22 }
+      ],
+      "behavior": { "aggressive": true, "retreatAtHp": 0 },
+      "assetKey": "corrupted_human",
+      "anims": "corrupted_human_idle",
+      "rarity": "rare"
+    },
+
+    {
+      "id": "corrupted_plant",
+      "name": "Corrupted Plant",
+      "levelRange": [1, 4],
+      "hp": 70,
+      "maxHp": 70,
+      "maxRam": 35,
+      "ramRegen": 6,
+      "expDropped": 60,
+      "spawnLocation": "Spoiled Garden",
+      "weakness": "System.gc()",
+      "baseAttack": 7,
+      "attacks": [
+        { "type": "physical", "name": "Vine Lash", "dmg": 9, "cost": 0 },
+        { "type": "code", "name": "Spore Overflow", "code": "overflow();", "dmg": 16, "cost": 12 }
+      ],
+      "behavior": { "aggressive": false, "retreatAtHp": 10 },
+      "assetKey": "corrupted_plant",
+      "anims": "corrupted_plant_idle",
+      "rarity": "common"
+
+    }
+  ]
+}

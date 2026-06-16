@@ -1,0 +1,12 @@
+{
+    "player": {
+    "name": "DevHero",
+    "level": 1,
+    "hp": 100,
+    "maxHp": 100,
+    "ram": 100,
+    "maxRam": 100,
+    "currentExp": 0,
+    "expToLevelUp": 100
+  }
+}

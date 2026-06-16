@@ -1,0 +1,76 @@
+{
+    "anims": [
+        {
+            "key": "enemy-boss",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-boss1"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-boss2"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-boss3"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-boss4"
+                }
+            ]
+        },
+        {
+            "key": "enemy-rare",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-rare1"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-rare2"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-rare3"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-rare4"
+                }
+            ]
+        },
+        {
+            "key": "enemy-common",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-common1"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-common2"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-common3"
+                },
+                {
+                    "key": "enemy_markers",
+                    "frame": "enemy-here-common4"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "corrupted_human_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "corrupted_human",
+                    "frame": "v_man1"
+                },
+                {
+                    "key": "corrupted_human",
+                    "frame": "v_man2"
+                },
+                {
+                    "key": "corrupted_human",
+                    "frame": "v_man3"
+                },
+                {
+                    "key": "corrupted_human",
+                    "frame": "v_man4"
+                }
+            ]
+        }
+    ]
+}

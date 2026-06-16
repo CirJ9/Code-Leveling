@@ -1,0 +1,164 @@
+{
+    "frames": [
+        {
+            "filename": "enemy-here-common1",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 2,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-common2",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 36,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-common3",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 2,
+                "y": 36
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-common4",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 36,
+                "y": 36
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-rare1",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 70,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-rare2",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 70,
+                "y": 36
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-rare3",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 2,
+                "y": 70
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-rare4",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 36,
+                "y": 70
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-boss1",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 70,
+                "y": 70
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-boss2",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 104,
+                "y": 2
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-boss3",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 104,
+                "y": 36
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "enemy-here-boss4",
+            "frame": {
+                "w": 32,
+                "h": 32,
+                "x": 104,
+                "y": 70
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

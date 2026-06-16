@@ -1,0 +1,32 @@
+{
+    "anims": [
+        {
+            "key": "corrupted_sister_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "corrupted_sister",
+                    "frame": "cor_sister1"
+                },
+                {
+                    "key": "corrupted_sister",
+                    "frame": "cor_sister2"
+                },
+                {
+                    "key": "corrupted_sister",
+                    "frame": "cor_sister3"
+                },
+                {
+                    "key": "corrupted_sister",
+                    "frame": "cor_sister4"
+                },
+                {
+                    "key": "corrupted_sister",
+                    "frame": "cor_sister5"
+                }
+            ]
+        }
+    ]
+}

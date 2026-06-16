@@ -1,0 +1,100 @@
+{
+  "keywords": {
+    "primitives": {
+      "byte": { "ramCost": 5, "complexity": 1, "type": "declaration", "ramLoad": 15 },
+      "short": { "ramCost": 5, "complexity": 1, "type": "declaration", "ramLoad": 15 },
+      "int": { "ramCost": 5, "complexity": 1, "type": "declaration", "ramLoad": 15 },
+      "long": { "ramCost": 10, "complexity": 2, "type": "declaration", "ramLoad": 30 },
+      "float": { "ramCost": 10, "complexity": 2, "type": "declaration", "ramLoad": 30 },
+      "double": { "ramCost": 10, "complexity": 2, "type": "declaration", "ramLoad": 30 },
+      "char": { "ramCost": 5, "complexity": 1, "type": "declaration", "ramLoad": 15 },
+      "boolean": { "ramCost": 5, "complexity": 1, "type": "buff", "ramLoad": 15 },
+      "String": { "ramCost": 10, "complexity": 2, "type": "declaration", "ramLoad": 30 },
+      "void": { "ramCost": 5, "complexity": 2, "type": "declaration", "ramLoad": 25 }
+    },
+    "output_and_functions": {
+      "System.out.println": { "ramCost": 20, "complexity": 4, "type": "function", "baseDamage": 10, "ramLoad": 60 },
+      "System.gc()": { "ramCost": 25, "complexity": 0, "type": "utility", "ramLoad": 25 },
+      "Math.random()": { "ramCost": 20, "complexity": 5, "type": "function", "baseDamage": 5, "ramLoad": 70 }
+    },
+    "loops": {
+      "while": { "ramCost": 25, "complexity": 5, "type": "loop", "ramLoad": 75 },
+      "do": { "ramCost": 20, "complexity": 4, "type": "loop", "ramLoad": 60 },
+      "for": { "ramCost": 25, "complexity": 6, "type": "loop", "ramLoad": 85 }
+    },
+    "logic_and_flow": {
+      "if": { "ramCost": 10, "complexity": 2, "type": "logic", "ramLoad": 30 },
+      "else": { "ramCost": 5, "complexity": 1, "type": "logic", "ramLoad": 15 },
+      "switch": { "ramCost": 20, "complexity": 5, "type": "logic", "ramLoad": 70 },
+      "case": { "ramCost": 5, "complexity": 1, "type": "logic", "ramLoad": 15 },
+      "default": { "ramCost": 5, "complexity": 1, "type": "logic", "ramLoad": 15 },
+      "break": { "ramCost": 15, "complexity": 3, "type": "utility", "ramLoad": 45 },
+      "continue": { "ramCost": 15, "complexity": 3, "type": "utility", "ramLoad": 45 },
+      "return": { "ramCost": 15, "complexity": 3, "type": "utility", "ramLoad": 45 }
+    },
+    "exceptions": {
+      "try": { "ramCost": 10, "complexity": 2, "type": "logic", "ramLoad": 30 },
+      "catch": { "ramCost": 15, "complexity": 4, "type": "logic", "ramLoad": 55 },
+      "finally": { "ramCost": 25, "complexity": 5, "type": "logic", "ramLoad": 75 },
+      "throw": { "ramCost": 20, "complexity": 6, "type": "attack", "ramLoad": 80 },
+      "throws": { "ramCost": 15, "complexity": 5, "type": "utility", "ramLoad": 65 }
+    },
+    "oop_structure": {
+      "new": { "ramCost": 30, "complexity": 6, "type": "summon", "ramLoad": 90 },
+      "class": { "ramCost": 40, "complexity": 8, "type": "structure", "ramLoad": 120 },
+      "interface": { "ramCost": 35, "complexity": 8, "type": "structure", "ramLoad": 115 },
+      "extends": { "ramCost": 30, "complexity": 7, "type": "buff", "ramLoad": 100 },
+      "implements": { "ramCost": 30, "complexity": 7, "type": "buff", "ramLoad": 100 },
+      "instanceof": { "ramCost": 20, "complexity": 7, "type": "logic", "ramLoad": 90 },
+      "enum": { "ramCost": 20, "complexity": 6, "type": "declaration", "ramLoad": 80 }
+    },
+    "modifiers": {
+      "public": { "ramCost": 15, "complexity": 3, "type": "modifier", "ramLoad": 45 },
+      "private": { "ramCost": 15, "complexity": 3, "type": "modifier", "ramLoad": 45 },
+      "protected": { "ramCost": 15, "complexity": 4, "type": "modifier", "ramLoad": 55 },
+      "static": { "ramCost": 25, "complexity": 6, "type": "modifier", "ramLoad": 85 },
+      "final": { "ramCost": 20, "complexity": 5, "type": "modifier", "ramLoad": 70 },
+      "abstract": { "ramCost": 25, "complexity": 7, "type": "modifier", "ramLoad": 95 },
+      "native": { "ramCost": 40, "complexity": 9, "type": "utility", "ramLoad": 130 },
+      "synchronized": { "ramCost": 50, "complexity": 10, "type": "utility", "ramLoad": 150 },
+      "transient": { "ramCost": 20, "complexity": 6, "type": "modifier", "ramLoad": 80 },
+      "volatile": { "ramCost": 30, "complexity": 9, "type": "modifier", "ramLoad": 120 },
+      "strictfp": { "ramCost": 25, "complexity": 8, "type": "modifier", "ramLoad": 105 }
+    },
+    "context_and_scope": {
+      "this": { "ramCost": 5, "complexity": 2, "type": "utility", "ramLoad": 25 },
+      "super": { "ramCost": 20, "complexity": 5, "type": "utility", "ramLoad": 70 },
+      "import": { "ramCost": 10, "complexity": 4, "type": "utility", "ramLoad": 50 },
+      "package": { "ramCost": 10, "complexity": 4, "type": "utility", "ramLoad": 50 },
+      "assert": { "ramCost": 30, "complexity": 7, "type": "logic", "ramLoad": 100 }
+    }
+  },
+  "synergies": {
+    "int+System.out.println": {
+      "name": "Calculated Strike",
+      "bonusDmgMultiplier": 1.5,
+      "msg": "Synergy: Variable values amplified damage!"
+    },
+    "boolean+if": {
+      "name": "Conditional Guard",
+      "effect": "double_shield",
+      "msg": "Synergy: Logic gates reinforced defense!"
+    },
+    "String+System.out.println": {
+      "name": "Standard Output Shout",
+      "bonusDmgMultiplier": 1.2,
+      "effect": "stun_chance",
+      "msg": "Synergy: String parsing overloaded enemy sensors!"
+    },
+    "try+catch+finally": {
+      "name": "Absolute Exception Handling",
+      "effect": "invulnerability",
+      "msg": "Synergy: The PC's code is now immune to corruption!"
+    },
+    "class+new": {
+      "name": "Object Genesis",
+      "effect": "summon_ally",
+      "msg": "Synergy: A new subroutine has been instantiated to help!"
+    }
+  }
+}

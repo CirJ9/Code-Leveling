@@ -1,0 +1,192 @@
+{
+    "anims": [
+        {
+            "key": "player_walk_down",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down1"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down2"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down3"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down4"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down5"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down6"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down7"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_down8"
+                }
+            ]
+        },
+        {
+            "key": "player_walk_up",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up1"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up2"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up3"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up4"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up5"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up6"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up7"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_up8"
+                }
+            ]
+        },
+        {
+            "key": "player_walk_right",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right1"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right2"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right3"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right4"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right5"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right6"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right7"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_right8"
+                }
+            ]
+        },
+        {
+            "key": "player_walk_left",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left1"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left2"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left3"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left4"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left5"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left6"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left7"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "walk_left8"
+                }
+            ]
+        },
+        {
+            "key": "player_idle",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "player_movement",
+                    "frame": "idle1"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "idle2"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "idle3"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "idle4"
+                },
+                {
+                    "key": "player_movement",
+                    "frame": "idle5"
+                }
+            ]
+        }
+    ]
+}
